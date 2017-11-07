@@ -1,0 +1,19 @@
+***********************************************************************************
+****************************GUIDE BY: ABUBAKAR SIDDIQUE :)**********************************
+***********************************************************************************
+
+Step1: Extract to /www folder in your WAMP or /htdocs in XAMP server, which ever you 
+       have installed.
+
+Step2: First create a new mysql database
+
+Step3: Create a new table called 'users', with 3 columns (id, username, password)
+
+Step4: Your DB is all set, next in the functions.php file replace 'yourDBname' with
+       your newly created DB name, root is the default user, but if your created your
+       db as a different user, change 'root' to that user, else stick with 'root,, 
+       Next the empty quote '', reps the 'root' user's password, change only if you  
+       using a different user.
+
+Setp5: Finally run register.php first to store the sample values before the login.php
+       to see results.
